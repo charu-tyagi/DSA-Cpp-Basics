@@ -18,11 +18,9 @@ int main(){
 
 // TO PRINT FLOYD'S TRIANGLE PATTERN (CHARACTER VERSION)
 
-    int N;
+    
     char ch='A';
-    cout << "Enter number of lines : ";
-    cin >> N;
-    for(int i=0;i<N;i++){
+    for(int i=0;i<n;i++){
         for(int j=1;j<=(i+1);j++){
             cout << ch << " ";
             ch++;
