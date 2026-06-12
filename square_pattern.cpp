@@ -15,26 +15,22 @@ int main(){
     cout << endl;
   }
 
-//  TO PRINT "M" NUMBER OF "*" IN "M" NUMBER OF LINES
+//  TO PRINT "N" NUMBER OF "*" IN "N" NUMBER OF LINES
 
-    int num;
-    cout << "Enter number of lines : ";
-    cin >> num;
-    for(int i=0;i<num;i++){
-        for(int j=0;j<num;j++){
+    
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
             cout << "*" << " ";
         }
         cout << endl;
     }
 
-// TO PRINT "R" NUMBER OF CHARACTERS IN "R" NUMBER OF LINES
+// TO PRINT "N" NUMBER OF CHARACTERS IN "N" NUMBER OF LINES
 
-    int N;
-    cout << "Enter number of lines : ";
-    cin >> N;
-    for(int i=0;i<N;i++){
+    
+    for(int i=0;i<n;i++){
         char ch = 'A';
-        for(int j=0;j<N;j++){
+        for(int j=0;j<n;j++){
             cout << ch << " ";
             ch++;
         }
